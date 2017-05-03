@@ -1,0 +1,6 @@
+framework module Pods_testTableViewHeightCacheTests {
+  umbrella header "Pods-testTableViewHeightCacheTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

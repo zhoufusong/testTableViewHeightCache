@@ -1,0 +1,870 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D23098FEFE16F01936F64FF47A0E117 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		1A9094873C4A93DB41EFB90F8AB40ECB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		1CF3470F6C8027EF0A4416B480B07FD3 /* Pods-testTableViewHeightCacheUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 96D11E3C1BD6E3E7A8866FAD76242062 /* Pods-testTableViewHeightCacheUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6110C14AA36B32CE4D5C4B7AEB62F0BE /* Pods-testTableViewHeightCacheUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EF60B45AEA3BC24279A1FF5D5B8E4AD /* Pods-testTableViewHeightCacheUITests-dummy.m */; };
+		6BACABC61F801197DB498AF9032A7F51 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		6F43B05D1A7F32791B365162F3D6CF38 /* UITableView+FDTemplateLayoutCellDebug.h in Headers */ = {isa = PBXBuildFile; fileRef = 482EC47306DD9B8A5AE26D2F21B8A5CF /* UITableView+FDTemplateLayoutCellDebug.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F76BDD8804737C54EBFE6AEF24DE642 /* UITableView+FDIndexPathHeightCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 096DEDA5E7B958BFB7755E18D5CD4CBF /* UITableView+FDIndexPathHeightCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		73CBCEA6C3EE152C4A9D15CC5EAF48F6 /* UITableView+FDTemplateLayoutCell.h in Headers */ = {isa = PBXBuildFile; fileRef = F361108ED9FF3F7CCBFBDF3925C9D0F5 /* UITableView+FDTemplateLayoutCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7530BE54692481325F2C3E886A73D3A6 /* UITableView+FDTemplateLayoutCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DBDE44BB57B6680149F668F2EA996F5B /* UITableView+FDTemplateLayoutCell.m */; };
+		7C6C165F912F1EEFFDFB5C772C24997E /* Pods-testTableViewHeightCacheTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FFED7318A76196DBADDF45AF803966F /* Pods-testTableViewHeightCacheTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		83B7DADFB5FD79DB4915DFF86EBD37F9 /* UITableView+FDTemplateLayoutCellDebug.m in Sources */ = {isa = PBXBuildFile; fileRef = 08B69C232795C7F0948377C8020AB685 /* UITableView+FDTemplateLayoutCellDebug.m */; };
+		8693335E9896A87CAAE6265E3C531F27 /* UITableView+FDIndexPathHeightCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 624CF3287BB79B0A1F2403D9DB36D03E /* UITableView+FDIndexPathHeightCache.m */; };
+		A46E9920A88740D86B31041C577E54B9 /* UITableView+FDTemplateLayoutCell-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E4476EE5AD8263EAE87FB9291D2FAC02 /* UITableView+FDTemplateLayoutCell-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B66B92FFE9ECAB9DC9B6555B2055A922 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		B9AA8849F91D5BFD90F5D76C33D7DCB7 /* Pods-testTableViewHeightCacheTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CCB7A667C91886D1777BE18F7B1B8EA /* Pods-testTableViewHeightCacheTests-dummy.m */; };
+		C0E9BFF53A9E7D560C408956FF095E91 /* Pods-testTableViewHeightCache-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ACE4C8FD090CA2EC3F0A42028382764 /* Pods-testTableViewHeightCache-dummy.m */; };
+		D11EFEFC93438E90C58B23DC7CF6568E /* UITableView+FDKeyedHeightCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 3ACFCBFF2B7FFAD2329045C66AEA6D09 /* UITableView+FDKeyedHeightCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DA32901BED7ED1B4824DCEC455B71D72 /* Pods-testTableViewHeightCache-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 823E3513CB2212ED7B2191A61371095D /* Pods-testTableViewHeightCache-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E246C06CB9D08FBB4CC9D5E3E931B670 /* UITableView+FDTemplateLayoutCell-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F371EA92C326549A469183D50EB72AC /* UITableView+FDTemplateLayoutCell-dummy.m */; };
+		E7854150BE862502D7AF704781D17B2F /* UITableView+FDKeyedHeightCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F78701BA972A8B39C1B8627E5963BE8 /* UITableView+FDKeyedHeightCache.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FFE7AB193A4A66F3E877DA83B31E271D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C700CE91D41A965CA2D556CED3932CDE;
+			remoteInfo = "UITableView+FDTemplateLayoutCell";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00B8F2C0CA0380A8194424B6727BC0ED /* Pods-testTableViewHeightCache-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-testTableViewHeightCache-frameworks.sh"; sourceTree = "<group>"; };
+		08B69C232795C7F0948377C8020AB685 /* UITableView+FDTemplateLayoutCellDebug.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITableView+FDTemplateLayoutCellDebug.m"; path = "Classes/UITableView+FDTemplateLayoutCellDebug.m"; sourceTree = "<group>"; };
+		096DEDA5E7B958BFB7755E18D5CD4CBF /* UITableView+FDIndexPathHeightCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITableView+FDIndexPathHeightCache.h"; path = "Classes/UITableView+FDIndexPathHeightCache.h"; sourceTree = "<group>"; };
+		0971535E9E465B894541F1596856252C /* Pods-testTableViewHeightCacheTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-testTableViewHeightCacheTests-resources.sh"; sourceTree = "<group>"; };
+		0EF60B45AEA3BC24279A1FF5D5B8E4AD /* Pods-testTableViewHeightCacheUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-testTableViewHeightCacheUITests-dummy.m"; sourceTree = "<group>"; };
+		11B019D0C318DDE9789DDE2984D9A9F2 /* Pods-testTableViewHeightCacheTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-testTableViewHeightCacheTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		2CCB7A667C91886D1777BE18F7B1B8EA /* Pods-testTableViewHeightCacheTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-testTableViewHeightCacheTests-dummy.m"; sourceTree = "<group>"; };
+		2DFC922522B30205C051C63D25BE83AD /* Pods-testTableViewHeightCacheTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-testTableViewHeightCacheTests.modulemap"; sourceTree = "<group>"; };
+		2F371EA92C326549A469183D50EB72AC /* UITableView+FDTemplateLayoutCell-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITableView+FDTemplateLayoutCell-dummy.m"; sourceTree = "<group>"; };
+		3ACFCBFF2B7FFAD2329045C66AEA6D09 /* UITableView+FDKeyedHeightCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITableView+FDKeyedHeightCache.h"; path = "Classes/UITableView+FDKeyedHeightCache.h"; sourceTree = "<group>"; };
+		3DCA38C722F17C0CC87A2AE4F2D79E2F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		405FC236299636A4A4592A4C9529A20D /* Pods-testTableViewHeightCacheTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-testTableViewHeightCacheTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		46048D10D5F3C3795BF9B51AF2962DE0 /* Pods-testTableViewHeightCache.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-testTableViewHeightCache.modulemap"; sourceTree = "<group>"; };
+		482EC47306DD9B8A5AE26D2F21B8A5CF /* UITableView+FDTemplateLayoutCellDebug.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITableView+FDTemplateLayoutCellDebug.h"; path = "Classes/UITableView+FDTemplateLayoutCellDebug.h"; sourceTree = "<group>"; };
+		48AD0EE71E65748DDB55675F5C965789 /* Pods-testTableViewHeightCacheUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-testTableViewHeightCacheUITests.modulemap"; sourceTree = "<group>"; };
+		4974AED82AD7D5615182D1A916189D8A /* UITableView_FDTemplateLayoutCell.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = UITableView_FDTemplateLayoutCell.framework; path = "UITableView+FDTemplateLayoutCell.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		51C3C23C002D74DCD47F583026096B4C /* Pods-testTableViewHeightCacheUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-testTableViewHeightCacheUITests.release.xcconfig"; sourceTree = "<group>"; };
+		57BDD6A170D48B18C170ECB839D04862 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		624CF3287BB79B0A1F2403D9DB36D03E /* UITableView+FDIndexPathHeightCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITableView+FDIndexPathHeightCache.m"; path = "Classes/UITableView+FDIndexPathHeightCache.m"; sourceTree = "<group>"; };
+		655D1A4BA2C011B7007588324EDFAE3E /* Pods-testTableViewHeightCache-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-testTableViewHeightCache-resources.sh"; sourceTree = "<group>"; };
+		670B83243090135CCA41B3398C7E2979 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6ACE4C8FD090CA2EC3F0A42028382764 /* Pods-testTableViewHeightCache-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-testTableViewHeightCache-dummy.m"; sourceTree = "<group>"; };
+		6BC7B81B65376F6D3429F136A7358181 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72B96A289319F82BAF869E52DDFEB47B /* Pods_testTableViewHeightCacheUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_testTableViewHeightCacheUITests.framework; path = "Pods-testTableViewHeightCacheUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B3983704B032D3327D8218E3D585E13 /* Pods-testTableViewHeightCache.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-testTableViewHeightCache.debug.xcconfig"; sourceTree = "<group>"; };
+		823E3513CB2212ED7B2191A61371095D /* Pods-testTableViewHeightCache-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-testTableViewHeightCache-umbrella.h"; sourceTree = "<group>"; };
+		8F2FD9F9BA15C4673BD04A49B89F4ED2 /* UITableView+FDTemplateLayoutCell.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "UITableView+FDTemplateLayoutCell.modulemap"; sourceTree = "<group>"; };
+		8F78701BA972A8B39C1B8627E5963BE8 /* UITableView+FDKeyedHeightCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITableView+FDKeyedHeightCache.m"; path = "Classes/UITableView+FDKeyedHeightCache.m"; sourceTree = "<group>"; };
+		8FFED7318A76196DBADDF45AF803966F /* Pods-testTableViewHeightCacheTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-testTableViewHeightCacheTests-umbrella.h"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		96D11E3C1BD6E3E7A8866FAD76242062 /* Pods-testTableViewHeightCacheUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-testTableViewHeightCacheUITests-umbrella.h"; sourceTree = "<group>"; };
+		AD97FD2812548BC1640FF70DCB6C8B65 /* Pods-testTableViewHeightCacheUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-testTableViewHeightCacheUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		AF728B340F842D4B803F0F12C62FFF48 /* Pods-testTableViewHeightCache-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-testTableViewHeightCache-acknowledgements.plist"; sourceTree = "<group>"; };
+		B2BEF5F57DEB39387BB029F97C7466CE /* Pods-testTableViewHeightCacheTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-testTableViewHeightCacheTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B55A73310BCA052FF766B31A856F6F80 /* Pods-testTableViewHeightCacheUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-testTableViewHeightCacheUITests-resources.sh"; sourceTree = "<group>"; };
+		C3977F9AB6B907D0B218C7387A2F718C /* Pods-testTableViewHeightCacheUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-testTableViewHeightCacheUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C73F2ECA457CE96B5CD7D55C26A774F9 /* UITableView+FDTemplateLayoutCell-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITableView+FDTemplateLayoutCell-prefix.pch"; sourceTree = "<group>"; };
+		C8C36CF802A1CCCA8D173CAB52F9BB5A /* Pods-testTableViewHeightCacheTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-testTableViewHeightCacheTests-frameworks.sh"; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CE455541F29E4E9F570EBE4CDD4364C1 /* Pods_testTableViewHeightCacheTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_testTableViewHeightCacheTests.framework; path = "Pods-testTableViewHeightCacheTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2D08690B0124C750BB6036851437976 /* Pods-testTableViewHeightCache.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-testTableViewHeightCache.release.xcconfig"; sourceTree = "<group>"; };
+		DBDE44BB57B6680149F668F2EA996F5B /* UITableView+FDTemplateLayoutCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITableView+FDTemplateLayoutCell.m"; path = "Classes/UITableView+FDTemplateLayoutCell.m"; sourceTree = "<group>"; };
+		E4476EE5AD8263EAE87FB9291D2FAC02 /* UITableView+FDTemplateLayoutCell-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITableView+FDTemplateLayoutCell-umbrella.h"; sourceTree = "<group>"; };
+		E97A13E7481F555C6AC89376340CFD52 /* Pods-testTableViewHeightCache-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-testTableViewHeightCache-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F0AE2710863F1A75D15D8A4FE791B3BA /* Pods-testTableViewHeightCacheTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-testTableViewHeightCacheTests.release.xcconfig"; sourceTree = "<group>"; };
+		F1E7DC7684C5BFD44D3B8D84C551BAC7 /* Pods-testTableViewHeightCacheUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-testTableViewHeightCacheUITests-frameworks.sh"; sourceTree = "<group>"; };
+		F361108ED9FF3F7CCBFBDF3925C9D0F5 /* UITableView+FDTemplateLayoutCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITableView+FDTemplateLayoutCell.h"; path = "Classes/UITableView+FDTemplateLayoutCell.h"; sourceTree = "<group>"; };
+		F47100BAEE3110DFFB7365FE4E620A8D /* UITableView+FDTemplateLayoutCell.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "UITableView+FDTemplateLayoutCell.xcconfig"; sourceTree = "<group>"; };
+		F74E94C6EC92A894752D3E3AFB58DA69 /* Pods_testTableViewHeightCache.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_testTableViewHeightCache.framework; path = "Pods-testTableViewHeightCache.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAE82B3D8EA7C43E814E793336A60D12 /* Pods-testTableViewHeightCacheUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-testTableViewHeightCacheUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1F8CEA3ACBE5B66728A4903986430618 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B66B92FFE9ECAB9DC9B6555B2055A922 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E46ED59E3E55BD9AA2F768542A036CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BACABC61F801197DB498AF9032A7F51 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48FB45B3025F226DC22750D9684479C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A9094873C4A93DB41EFB90F8AB40ECB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF98DEA3F61BC5B19C058726123E863D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D23098FEFE16F01936F64FF47A0E117 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14F066AE1BA39A57686D4FB300D98880 /* Pods-testTableViewHeightCacheUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6BC7B81B65376F6D3429F136A7358181 /* Info.plist */,
+				48AD0EE71E65748DDB55675F5C965789 /* Pods-testTableViewHeightCacheUITests.modulemap */,
+				FAE82B3D8EA7C43E814E793336A60D12 /* Pods-testTableViewHeightCacheUITests-acknowledgements.markdown */,
+				AD97FD2812548BC1640FF70DCB6C8B65 /* Pods-testTableViewHeightCacheUITests-acknowledgements.plist */,
+				0EF60B45AEA3BC24279A1FF5D5B8E4AD /* Pods-testTableViewHeightCacheUITests-dummy.m */,
+				F1E7DC7684C5BFD44D3B8D84C551BAC7 /* Pods-testTableViewHeightCacheUITests-frameworks.sh */,
+				B55A73310BCA052FF766B31A856F6F80 /* Pods-testTableViewHeightCacheUITests-resources.sh */,
+				96D11E3C1BD6E3E7A8866FAD76242062 /* Pods-testTableViewHeightCacheUITests-umbrella.h */,
+				C3977F9AB6B907D0B218C7387A2F718C /* Pods-testTableViewHeightCacheUITests.debug.xcconfig */,
+				51C3C23C002D74DCD47F583026096B4C /* Pods-testTableViewHeightCacheUITests.release.xcconfig */,
+			);
+			name = "Pods-testTableViewHeightCacheUITests";
+			path = "Target Support Files/Pods-testTableViewHeightCacheUITests";
+			sourceTree = "<group>";
+		};
+		2C138BA27445E2A17CC715F8DA396A4E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E50ACC94A91CFA0B06A1BD71C908131A /* UITableView+FDTemplateLayoutCell */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		46415E45E24FDE12EBDEA86DD016FA25 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F74E94C6EC92A894752D3E3AFB58DA69 /* Pods_testTableViewHeightCache.framework */,
+				CE455541F29E4E9F570EBE4CDD4364C1 /* Pods_testTableViewHeightCacheTests.framework */,
+				72B96A289319F82BAF869E52DDFEB47B /* Pods_testTableViewHeightCacheUITests.framework */,
+				4974AED82AD7D5615182D1A916189D8A /* UITableView_FDTemplateLayoutCell.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		48AF7EFF3FB83B678C883E7967EECA3F /* Pods-testTableViewHeightCache */ = {
+			isa = PBXGroup;
+			children = (
+				57BDD6A170D48B18C170ECB839D04862 /* Info.plist */,
+				46048D10D5F3C3795BF9B51AF2962DE0 /* Pods-testTableViewHeightCache.modulemap */,
+				E97A13E7481F555C6AC89376340CFD52 /* Pods-testTableViewHeightCache-acknowledgements.markdown */,
+				AF728B340F842D4B803F0F12C62FFF48 /* Pods-testTableViewHeightCache-acknowledgements.plist */,
+				6ACE4C8FD090CA2EC3F0A42028382764 /* Pods-testTableViewHeightCache-dummy.m */,
+				00B8F2C0CA0380A8194424B6727BC0ED /* Pods-testTableViewHeightCache-frameworks.sh */,
+				655D1A4BA2C011B7007588324EDFAE3E /* Pods-testTableViewHeightCache-resources.sh */,
+				823E3513CB2212ED7B2191A61371095D /* Pods-testTableViewHeightCache-umbrella.h */,
+				7B3983704B032D3327D8218E3D585E13 /* Pods-testTableViewHeightCache.debug.xcconfig */,
+				D2D08690B0124C750BB6036851437976 /* Pods-testTableViewHeightCache.release.xcconfig */,
+			);
+			name = "Pods-testTableViewHeightCache";
+			path = "Target Support Files/Pods-testTableViewHeightCache";
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				2C138BA27445E2A17CC715F8DA396A4E /* Pods */,
+				46415E45E24FDE12EBDEA86DD016FA25 /* Products */,
+				F5B19EB977D211B36EBB240BDD1497E9 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BAC2F054490894B9A99228FD8E14FE75 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				670B83243090135CCA41B3398C7E2979 /* Info.plist */,
+				8F2FD9F9BA15C4673BD04A49B89F4ED2 /* UITableView+FDTemplateLayoutCell.modulemap */,
+				F47100BAEE3110DFFB7365FE4E620A8D /* UITableView+FDTemplateLayoutCell.xcconfig */,
+				2F371EA92C326549A469183D50EB72AC /* UITableView+FDTemplateLayoutCell-dummy.m */,
+				C73F2ECA457CE96B5CD7D55C26A774F9 /* UITableView+FDTemplateLayoutCell-prefix.pch */,
+				E4476EE5AD8263EAE87FB9291D2FAC02 /* UITableView+FDTemplateLayoutCell-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/UITableView+FDTemplateLayoutCell";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E50ACC94A91CFA0B06A1BD71C908131A /* UITableView+FDTemplateLayoutCell */ = {
+			isa = PBXGroup;
+			children = (
+				096DEDA5E7B958BFB7755E18D5CD4CBF /* UITableView+FDIndexPathHeightCache.h */,
+				624CF3287BB79B0A1F2403D9DB36D03E /* UITableView+FDIndexPathHeightCache.m */,
+				3ACFCBFF2B7FFAD2329045C66AEA6D09 /* UITableView+FDKeyedHeightCache.h */,
+				8F78701BA972A8B39C1B8627E5963BE8 /* UITableView+FDKeyedHeightCache.m */,
+				F361108ED9FF3F7CCBFBDF3925C9D0F5 /* UITableView+FDTemplateLayoutCell.h */,
+				DBDE44BB57B6680149F668F2EA996F5B /* UITableView+FDTemplateLayoutCell.m */,
+				482EC47306DD9B8A5AE26D2F21B8A5CF /* UITableView+FDTemplateLayoutCellDebug.h */,
+				08B69C232795C7F0948377C8020AB685 /* UITableView+FDTemplateLayoutCellDebug.m */,
+				BAC2F054490894B9A99228FD8E14FE75 /* Support Files */,
+			);
+			name = "UITableView+FDTemplateLayoutCell";
+			path = "UITableView+FDTemplateLayoutCell";
+			sourceTree = "<group>";
+		};
+		F5B19EB977D211B36EBB240BDD1497E9 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				48AF7EFF3FB83B678C883E7967EECA3F /* Pods-testTableViewHeightCache */,
+				F60A739307CCC5059C11A1FE809BFC73 /* Pods-testTableViewHeightCacheTests */,
+				14F066AE1BA39A57686D4FB300D98880 /* Pods-testTableViewHeightCacheUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		F60A739307CCC5059C11A1FE809BFC73 /* Pods-testTableViewHeightCacheTests */ = {
+			isa = PBXGroup;
+			children = (
+				3DCA38C722F17C0CC87A2AE4F2D79E2F /* Info.plist */,
+				2DFC922522B30205C051C63D25BE83AD /* Pods-testTableViewHeightCacheTests.modulemap */,
+				405FC236299636A4A4592A4C9529A20D /* Pods-testTableViewHeightCacheTests-acknowledgements.markdown */,
+				11B019D0C318DDE9789DDE2984D9A9F2 /* Pods-testTableViewHeightCacheTests-acknowledgements.plist */,
+				2CCB7A667C91886D1777BE18F7B1B8EA /* Pods-testTableViewHeightCacheTests-dummy.m */,
+				C8C36CF802A1CCCA8D173CAB52F9BB5A /* Pods-testTableViewHeightCacheTests-frameworks.sh */,
+				0971535E9E465B894541F1596856252C /* Pods-testTableViewHeightCacheTests-resources.sh */,
+				8FFED7318A76196DBADDF45AF803966F /* Pods-testTableViewHeightCacheTests-umbrella.h */,
+				B2BEF5F57DEB39387BB029F97C7466CE /* Pods-testTableViewHeightCacheTests.debug.xcconfig */,
+				F0AE2710863F1A75D15D8A4FE791B3BA /* Pods-testTableViewHeightCacheTests.release.xcconfig */,
+			);
+			name = "Pods-testTableViewHeightCacheTests";
+			path = "Target Support Files/Pods-testTableViewHeightCacheTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		22C16368B3090BDDD8CD0448001E90B6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CF3470F6C8027EF0A4416B480B07FD3 /* Pods-testTableViewHeightCacheUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DE0FDF43B30F42681C4E6B009982389 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA32901BED7ED1B4824DCEC455B71D72 /* Pods-testTableViewHeightCache-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F4E07D97FD3026BDFF5DBE339E870B9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F76BDD8804737C54EBFE6AEF24DE642 /* UITableView+FDIndexPathHeightCache.h in Headers */,
+				D11EFEFC93438E90C58B23DC7CF6568E /* UITableView+FDKeyedHeightCache.h in Headers */,
+				A46E9920A88740D86B31041C577E54B9 /* UITableView+FDTemplateLayoutCell-umbrella.h in Headers */,
+				73CBCEA6C3EE152C4A9D15CC5EAF48F6 /* UITableView+FDTemplateLayoutCell.h in Headers */,
+				6F43B05D1A7F32791B365162F3D6CF38 /* UITableView+FDTemplateLayoutCellDebug.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8611C7F4A5437F12BC8B90B3C6A73AB2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C6C165F912F1EEFFDFB5C772C24997E /* Pods-testTableViewHeightCacheTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		077C29B15C092165BBB5ACDAA9E7E9BE /* Pods-testTableViewHeightCacheUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E7F06810F4722D40D1334D4EEC4E1B2 /* Build configuration list for PBXNativeTarget "Pods-testTableViewHeightCacheUITests" */;
+			buildPhases = (
+				360BA1E760388892D8EF58EE3F636933 /* Sources */,
+				48FB45B3025F226DC22750D9684479C5 /* Frameworks */,
+				22C16368B3090BDDD8CD0448001E90B6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-testTableViewHeightCacheUITests";
+			productName = "Pods-testTableViewHeightCacheUITests";
+			productReference = 72B96A289319F82BAF869E52DDFEB47B /* Pods_testTableViewHeightCacheUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		566100885A02AE3D3BFF9A9041056A9A /* Pods-testTableViewHeightCache */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1380E7A4EBC271AC0812DC156CE67580 /* Build configuration list for PBXNativeTarget "Pods-testTableViewHeightCache" */;
+			buildPhases = (
+				F716CF9C8B7D8202818F76CBE7E835BC /* Sources */,
+				1F8CEA3ACBE5B66728A4903986430618 /* Frameworks */,
+				4DE0FDF43B30F42681C4E6B009982389 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1972AD3817C10F4BE5C9E73295D3D32C /* PBXTargetDependency */,
+			);
+			name = "Pods-testTableViewHeightCache";
+			productName = "Pods-testTableViewHeightCache";
+			productReference = F74E94C6EC92A894752D3E3AFB58DA69 /* Pods_testTableViewHeightCache.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8BD50D034DB08F0A9F508F52C7BAC9EE /* Pods-testTableViewHeightCacheTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9FC17CD71457DF8F372C31C6639EC851 /* Build configuration list for PBXNativeTarget "Pods-testTableViewHeightCacheTests" */;
+			buildPhases = (
+				ED089C849F92846296DEC2B1D94AAD8D /* Sources */,
+				BF98DEA3F61BC5B19C058726123E863D /* Frameworks */,
+				8611C7F4A5437F12BC8B90B3C6A73AB2 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-testTableViewHeightCacheTests";
+			productName = "Pods-testTableViewHeightCacheTests";
+			productReference = CE455541F29E4E9F570EBE4CDD4364C1 /* Pods_testTableViewHeightCacheTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C700CE91D41A965CA2D556CED3932CDE /* UITableView+FDTemplateLayoutCell */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAC8C3C0A5CCEB52A6E32BCEB37921CF /* Build configuration list for PBXNativeTarget "UITableView+FDTemplateLayoutCell" */;
+			buildPhases = (
+				093B5FABC1428A0D7831A943D0A0D1F8 /* Sources */,
+				2E46ED59E3E55BD9AA2F768542A036CD /* Frameworks */,
+				6F4E07D97FD3026BDFF5DBE339E870B9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UITableView+FDTemplateLayoutCell";
+			productName = "UITableView+FDTemplateLayoutCell";
+			productReference = 4974AED82AD7D5615182D1A916189D8A /* UITableView_FDTemplateLayoutCell.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 46415E45E24FDE12EBDEA86DD016FA25 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				566100885A02AE3D3BFF9A9041056A9A /* Pods-testTableViewHeightCache */,
+				8BD50D034DB08F0A9F508F52C7BAC9EE /* Pods-testTableViewHeightCacheTests */,
+				077C29B15C092165BBB5ACDAA9E7E9BE /* Pods-testTableViewHeightCacheUITests */,
+				C700CE91D41A965CA2D556CED3932CDE /* UITableView+FDTemplateLayoutCell */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		093B5FABC1428A0D7831A943D0A0D1F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8693335E9896A87CAAE6265E3C531F27 /* UITableView+FDIndexPathHeightCache.m in Sources */,
+				E7854150BE862502D7AF704781D17B2F /* UITableView+FDKeyedHeightCache.m in Sources */,
+				E246C06CB9D08FBB4CC9D5E3E931B670 /* UITableView+FDTemplateLayoutCell-dummy.m in Sources */,
+				7530BE54692481325F2C3E886A73D3A6 /* UITableView+FDTemplateLayoutCell.m in Sources */,
+				83B7DADFB5FD79DB4915DFF86EBD37F9 /* UITableView+FDTemplateLayoutCellDebug.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		360BA1E760388892D8EF58EE3F636933 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6110C14AA36B32CE4D5C4B7AEB62F0BE /* Pods-testTableViewHeightCacheUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED089C849F92846296DEC2B1D94AAD8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9AA8849F91D5BFD90F5D76C33D7DCB7 /* Pods-testTableViewHeightCacheTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F716CF9C8B7D8202818F76CBE7E835BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0E9BFF53A9E7D560C408956FF095E91 /* Pods-testTableViewHeightCache-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1972AD3817C10F4BE5C9E73295D3D32C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "UITableView+FDTemplateLayoutCell";
+			target = C700CE91D41A965CA2D556CED3932CDE /* UITableView+FDTemplateLayoutCell */;
+			targetProxy = FFE7AB193A4A66F3E877DA83B31E271D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		015A368F878AC3E2CEAE21DDE8026304 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		1C1373F425EA84BD1DD79DACCEE9E6BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0AE2710863F1A75D15D8A4FE791B3BA /* Pods-testTableViewHeightCacheTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-testTableViewHeightCacheTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-testTableViewHeightCacheTests/Pods-testTableViewHeightCacheTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_testTableViewHeightCacheTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2CACD689A5D65806810C7E217DAA6F78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2D08690B0124C750BB6036851437976 /* Pods-testTableViewHeightCache.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-testTableViewHeightCache/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-testTableViewHeightCache/Pods-testTableViewHeightCache.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_testTableViewHeightCache;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2E8EEFEE85668523AFEC23CE78D49892 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3977F9AB6B907D0B218C7387A2F718C /* Pods-testTableViewHeightCacheUITests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-testTableViewHeightCacheUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-testTableViewHeightCacheUITests/Pods-testTableViewHeightCacheUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_testTableViewHeightCacheUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3D192AF960861A922BA80B22E1537784 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2BEF5F57DEB39387BB029F97C7466CE /* Pods-testTableViewHeightCacheTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-testTableViewHeightCacheTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-testTableViewHeightCacheTests/Pods-testTableViewHeightCacheTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_testTableViewHeightCacheTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		44CDBB6D11DE06DB64D6268622BDC47E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5894525BBCB38FB42130BBAD9BC03D14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51C3C23C002D74DCD47F583026096B4C /* Pods-testTableViewHeightCacheUITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-testTableViewHeightCacheUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-testTableViewHeightCacheUITests/Pods-testTableViewHeightCacheUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_testTableViewHeightCacheUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		60F0311FFAC022D446B14502B3848705 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B3983704B032D3327D8218E3D585E13 /* Pods-testTableViewHeightCache.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-testTableViewHeightCache/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-testTableViewHeightCache/Pods-testTableViewHeightCache.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_testTableViewHeightCache;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B03D685D099F6A61F0AF8AA6156CF3FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F47100BAEE3110DFFB7365FE4E620A8D /* UITableView+FDTemplateLayoutCell.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/UITableView+FDTemplateLayoutCell/UITableView+FDTemplateLayoutCell-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UITableView+FDTemplateLayoutCell/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/UITableView+FDTemplateLayoutCell/UITableView+FDTemplateLayoutCell.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = UITableView_FDTemplateLayoutCell;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DDC76B4793669FB4157E8650666DC044 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F47100BAEE3110DFFB7365FE4E620A8D /* UITableView+FDTemplateLayoutCell.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/UITableView+FDTemplateLayoutCell/UITableView+FDTemplateLayoutCell-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UITableView+FDTemplateLayoutCell/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/UITableView+FDTemplateLayoutCell/UITableView+FDTemplateLayoutCell.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = UITableView_FDTemplateLayoutCell;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1380E7A4EBC271AC0812DC156CE67580 /* Build configuration list for PBXNativeTarget "Pods-testTableViewHeightCache" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60F0311FFAC022D446B14502B3848705 /* Debug */,
+				2CACD689A5D65806810C7E217DAA6F78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				015A368F878AC3E2CEAE21DDE8026304 /* Debug */,
+				44CDBB6D11DE06DB64D6268622BDC47E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9E7F06810F4722D40D1334D4EEC4E1B2 /* Build configuration list for PBXNativeTarget "Pods-testTableViewHeightCacheUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E8EEFEE85668523AFEC23CE78D49892 /* Debug */,
+				5894525BBCB38FB42130BBAD9BC03D14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9FC17CD71457DF8F372C31C6639EC851 /* Build configuration list for PBXNativeTarget "Pods-testTableViewHeightCacheTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D192AF960861A922BA80B22E1537784 /* Debug */,
+				1C1373F425EA84BD1DD79DACCEE9E6BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAC8C3C0A5CCEB52A6E32BCEB37921CF /* Build configuration list for PBXNativeTarget "UITableView+FDTemplateLayoutCell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B03D685D099F6A61F0AF8AA6156CF3FB /* Debug */,
+				DDC76B4793669FB4157E8650666DC044 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

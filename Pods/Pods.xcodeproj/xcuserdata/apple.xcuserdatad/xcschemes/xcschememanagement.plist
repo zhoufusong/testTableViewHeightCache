@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Pods-testTableViewHeightCache.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-testTableViewHeightCacheTests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-testTableViewHeightCacheUITests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>UITableView+FDTemplateLayoutCell.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>077C29B15C092165BBB5ACDAA9E7E9BE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>566100885A02AE3D3BFF9A9041056A9A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8BD50D034DB08F0A9F508F52C7BAC9EE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C700CE91D41A965CA2D556CED3932CDE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
